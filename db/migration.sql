@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS customers (
+    id SERIAL PRIMARY KEY NOT NULL
+    name VARCHAR NOT NULL
+    phone VARCHAR(15)
+    email VARCHAR
+)
